@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/import.css" />
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/global.css" />
+    <link rel="stylesheet" href="style/home.css" />
+    <script src="js/global.js" defer></script>
+  </head>
+  <body>
+    <header class="globalHeader">
+      <a class="mainLogo" href="#">Mon super logo</a>
+      <button
+        onclick="openMenu()"
+        class="burgerButton"
+        id="burgerButton"
+        type="button"
+      >
+        Menu
+      </button>
+    </header>
+
+    <nav id="burgerMenu" class="burgerMenu">
+      <button onclick="closeMenu()" id="closeMenu" type="button">X</button>
+      <ul>
+        <li>
+          <a href="">Home</a>
+          <a href="">About Trash</a>
+          <a href="">Contact</a>
+          <a href="">Sell my trash</a>
+        </li>
+      </ul>
+    </nav>
+    <main class="globalMain homeMain">
+      <section class="globalSection headSection">
+        <h1>Welcome to my trash sell</h1>
+        <p>Here you can find all the trash you don't even need</p>
+      </section>
+      <section class="globalSection articlesSection">
+        <h2>My latest products</h2>
+        <ul>
+          <li>
+            <a href="">
+              <article>
+                <h3>TrashBag</h3>
+                <img
+                  src="https://static.vecteezy.com/system/resources/thumbnails/024/991/779/small/black-garbage-bag-isolated-transparent-background-ai-generated-free-png.png"
+                  alt="A beautiful Trashbag"
+                />
+                <p class="price">Only 5$</p>
+                <p class="seeMore" href="trashbag.html">See product</p>
+              </article>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <article>
+                <h3>TrashBag</h3>
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Game_Boy_Color.png/1200px-Game_Boy_Color.png"
+                  alt="A beautiful Trashbag"
+                />
+                <p class="price">Only 5$</p>
+                <p class="seeMore" href="trashbag.html">See product</p>
+              </article>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <article>
+                <h3>TrashBag</h3>
+                <img
+                  src="https://static.vecteezy.com/system/resources/thumbnails/024/991/779/small/black-garbage-bag-isolated-transparent-background-ai-generated-free-png.png"
+                  alt="A beautiful Trashbag"
+                />
+                <p class="price">Only 5$</p>
+                <p class="seeMore" href="trashbag.html">See product</p>
+              </article>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="globalFooter">
+      <p>© 2024 TrashSell</p>
+    </footer>
+  </body>
+</html>
