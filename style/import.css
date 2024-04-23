@@ -2,4 +2,9 @@
   --layout-hr-rem: 2rem;
   --global-header-height: 85px;
   --global-footer-height: 51px;
+  --main-color: #edefe2;
+  --secondary-color: #727980;
+  --tertiary-color: #4ba8b2;
+  --dark-color: #1f1f1f;
+  --max-width-layout: 1400px;
 }
